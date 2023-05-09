@@ -10,8 +10,9 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body>
-  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+<body
+  style="background-image: url(Pics/Wueste.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <nav class="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,31 +21,79 @@
       <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./" style="font-family: luminari;">Home</a>
+            <a class="nav-link active" aria-current="page" href="./">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-              style="font-family: luminari;">Tiere</a>
+             >Tiere</a>
             <ul class="dropdown-menu" style="height: 150px; overflow-y: auto;">
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Kamele</a></li>
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Kobras</a></li>
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Wüstenhamster</a></li>
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Gila-Krustenechse</a></li>
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Fennek-Füchse</a></li>
-              <li><a class="dropdown-item" href="tiere.html" style="font-family: luminari;">Skorpione</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Kamele</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Kobras</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Wüstenhamster</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Gila-Krustenechse</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Fennek-Füchse</a></li>
+              <li><a class="dropdown-item" href="tiere.html">Skorpione</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="informationen.html" style="font-family: luminari;">Informationen</a>
+            <a class="nav-link" href="informationen.html">Informationen</a>
           </li>
         </ul>
-        <a class="navbar-text" href="kontakt.html" style="font-family: luminari; text-decoration: none;">Kontakt</a>
+        <a class="navbar-text" href="kontakt.html" style="text-decoration: none;">Kontakt</a>
       </div>
     </div>
   </nav>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
+  <div class="container" style="margin-top: 2.5vw;">
+    <div class="p-10 text-center card border-primary bg-body-tertiary rounded-4">
+      <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <h1 class="text-body-emphasis">Wüstenzoo - Öffnungszeiten</h1>
+      <p class="col-lg-8 mx-auto fs-5 text-muted">
+        Montag - Freitag: 9:00 - 17:00 Uhr
+        <br>Samstag & Sonntag: 9:00 - 18:00 Uhr
+        <br>
+      <p class="col-lg-8 mx-auto fs-8 text-muted">Änderungen stünden <code>HIER</code></p>
+      </p>
+      <div class="d-inline-flex gap-2 mb-5">
+      </div>
+    </div>
+
+    <div class="card border-primary my-3">
+      <div class="card-body text-dark">
+        <h5 class="card-title">Wie wir zum Konzept kamen.</h5>
+        <p class="card-text"><br>Das Konzept des Wüstenzoos entstand in den frühen 2000er Jahren, als Zoos begannen,
+          sich auf die Verbesserung der Lebensbedingungen für ihre Tiere zu konzentrieren. Experten aus verschiedenen
+          Bereichen entwickelten ein Design, das es Tieren ermöglicht, in einer Umgebung zu leben, die ihren natürlichen
+          Lebensbedingungen ähnelt. Tierarten, die in der Wüste leben, wurden ausgewählt, um sicherzustellen, dass sie
+          in der Wüstenumgebung gedeihen. Die Errichtung eines Wüstenzoos war jedoch nicht einfach, da Wüstenumgebungen
+          schwierig künstlich nachzubilden sind. Heute ist der Wüstenzoo eine beliebte Attraktion für Besucher und trägt
+          zum Schutz von Wildtieren und ihren Lebensräumen bei.
+        </p>
+      </div>
+    </div>
+
+    <div class="list-group card border-primary mb-3">
+      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Unsere Tiere</a>    
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action" aria-current="true">Kamele</a>
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Kobras</a>
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Wüstenhamster</a>
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Gila-Krustenechse</a>
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Fennek-Füchse</a>
+      <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Skorpione</a>
+    </div>
+
+  </div>
+
+
+
+
+
+
 </body>
 
 </html>
