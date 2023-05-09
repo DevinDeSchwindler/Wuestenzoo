@@ -12,7 +12,7 @@
 
 <body
   style="background-image: url(Pics/Wueste.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
-  <nav class="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <nav class="navbar sticky-top navbar-expand-lg bg-warning" data-bs-theme="light">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +26,13 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
              >Tiere</a>
-            <ul class="dropdown-menu" style="height: 150px; overflow-y: auto;">
-              <li><a class="dropdown-item" href="tiere.html">Kamele</a></li>
-              <li><a class="dropdown-item" href="tiere.html">Kobras</a></li>
-              <li><a class="dropdown-item" href="tiere.html">Wüstenhamster</a></li>
-              <li><a class="dropdown-item" href="tiere.html">Gila-Krustenechse</a></li>
-              <li><a class="dropdown-item" href="tiere.html">Fennek-Füchse</a></li>
-              <li><a class="dropdown-item" href="tiere.html">Skorpione</a></li>
+            <ul class="dropdown-menu bg-warning" style="height: 150px; overflow-y: auto;">
+              <li><a class="dropdown-item" href="tiere.html#kamele">Kamele</a></li>
+              <li><a class="dropdown-item" href="tiere.html#kobras">Kobras</a></li>
+              <li><a class="dropdown-item" href="tiere.html#wüstenhamster">Wüstenhamster</a></li>
+              <li><a class="dropdown-item" href="tiere.html#gila-krustenechse">Gila-Krustenechse</a></li>
+              <li><a class="dropdown-item" href="tiere.html#fennek-füchse">Fennek-Füchse</a></li>
+              <li><a class="dropdown-item" href="tiere.html#skorpione">Skorpione</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -63,9 +63,12 @@
       </div>
     </div>
 
-    <div class="card border-primary my-3">
+
+    <div class="row">
+      <div class="col-6">
+    <div class="card border-primary mt-3">
       <div class="card-body text-dark">
-        <h5 class="card-title">Wie wir zum Konzept kamen.</h5>
+        <h5 class="card-title">Unser Konzept</h5>
         <p class="card-text"><br>Das Konzept des Wüstenzoos entstand in den frühen 2000er Jahren, als Zoos begannen,
           sich auf die Verbesserung der Lebensbedingungen für ihre Tiere zu konzentrieren. Experten aus verschiedenen
           Bereichen entwickelten ein Design, das es Tieren ermöglicht, in einer Umgebung zu leben, die ihren natürlichen
@@ -76,8 +79,9 @@
         </p>
       </div>
     </div>
-
-    <div class="list-group card border-primary mb-3">
+</div>
+<div class="col-6">
+    <div class="list-group card border-primary mt-3">
       <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Unsere Tiere</a>    
       <a href="tiere.html" type="button" class="list-group-item list-group-item-action" aria-current="true">Kamele</a>
       <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Kobras</a>
@@ -85,6 +89,40 @@
       <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Gila-Krustenechse</a>
       <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Fennek-Füchse</a>
       <a href="tiere.html" type="button" class="list-group-item list-group-item-action">Skorpione</a>
+    </div>
+    </div>
+    </div>
+
+
+    <div id="slideshow">
+    
+    <div class="card border-primary my-3">
+      <div class="card-body text-dark">
+        <h5 class="card-title"></h5>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3250">
+              <img src="Pics/Zoobild1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3250">
+              <img src="Pics/Zoobild2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3250">
+              <img src="Pics/Zoobild3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
     </div>
 
   </div>
